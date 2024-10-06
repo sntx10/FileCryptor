@@ -28,7 +28,7 @@ pip install -r req.txt
 ### Чтобы зашифровать файл, используйте следующую команду:
 
 ```bash
-python filecryptor.py <путь_к_файлу> --encrypt
+python main.py <путь_к_файлу> --encrypt
 ```
 Вы будете запрошены ввести пароль для шифрования. Файл будет перезаписан зашифрованными данными.
 
@@ -37,7 +37,7 @@ python filecryptor.py <путь_к_файлу> --encrypt
 
 ### Чтобы расшифровать файл, выполните команду:
 ```bash
-python filecryptor.py <путь_к_файлу> --decrypt
+python main.py <путь_к_файлу> --decrypt
 ```
 Введите пароль, который вы использовали для шифрования файла. Файл будет перезаписан расшифрованными данными.
 
@@ -52,9 +52,9 @@ python filecryptor.py <путь_к_файлу> --decrypt
 
 ```bash
 # Шифрование файла
-python filecryptor.py secret.txt --encrypt
+python main.py secret.txt --encrypt
 ```
 ```bash
 # Дешифрование файла
-python filecryptor.py secret.txt --decrypt
+python main.py secret.txt --decrypt
 ```
